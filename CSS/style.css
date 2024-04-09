@@ -9,6 +9,9 @@ header{
     padding: 1.2rem 4rem 1rem 10rem;
 }
 
+h1{
+    padding:2rem;
+}
 
 .header,ul{
     display: flex;
@@ -37,7 +40,27 @@ button{
     background-color: white;
 }
 
+.button_white{
+    background-color: white;
+    color: black;
+}
 
+.button_black{
+    background-color:black;
+    margin:2rem;
+}
 
+.jumbo_section{
+background-color:pink;
+text-align: center;
+}
 
+.button_blue{
+    background-color: #255ee9;
+}
 
+.center_section{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+}
