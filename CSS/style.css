@@ -40,7 +40,9 @@ button{
     background-color: white;
 }
 
+
 .button_white{
+    margin-top: 4rem;
     background-color: white;
     color: black;
 }
@@ -48,19 +50,66 @@ button{
 .button_black{
     background-color:black;
     margin:2rem;
+    color: white;
+
+}
+
+.jumbo h1{
+    font-size: 2.5rem;
 }
 
 .jumbo_section{
-background-color:pink;
-text-align: center;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../img/jumbo.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
+    padding-bottom:5rem;
 }
 
 .button_blue{
     background-color: #255ee9;
+    color: white;
 }
 
 .center_section{
-    background-color: aqua;
     display: flex;
+    flex-direction: column;
+}
+
+.color_footer{
+    color: black;
+}
+
+.second_footer{
+display: flex;
+justify-content: space-between;
+padding:1.5rem 8rem;
+}
+
+.first_footer,ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.final_description{
+    text-align: center;
+}
+
+.button_blue.final{
+    margin-top: 2rem;
+}
+
+.ul_footer{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color:grey;
+    align-items: center;
     flex-direction: column;
 }
